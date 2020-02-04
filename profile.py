@@ -1,6 +1,7 @@
 import bs4
 import requests
 from bs4 import BeautifulSoup as soup
+from urllib.request import urlopen as uReq
 import json
 
 c=0
@@ -18,8 +19,12 @@ while True:
 	else:
 		break
 
+uClient=uReq(link)
 link="https://codeforces.com/api/user.info?handles="+cf_id
 ml=requests.get(link)
+page_html=uClient.read()
+uClient.close()
+page_soup=soup(page_html,"html.parser")
 c=page_soup.find_all('li')
 p=json.loads(ml.text)
 dic=p['result']
@@ -48,6 +53,9 @@ print("Current Group:",ls['rank'])
 
 #contrib
 print("Contribution:",ls['contribution'])
+
+#Friends
+print("Friends Count:",ls['friendOfCount'])
 
 #max rating
 print("Max Rating:",ls['maxRating'])
