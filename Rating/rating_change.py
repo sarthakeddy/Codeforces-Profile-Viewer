@@ -4,7 +4,7 @@ import json
 c=0
 while True:
 	if c==0:
-		cf_id=input("Enter your codeforces id :")
+		cf_id=input("Enter your codeforces id : ")
 		c+=1
 	else:
 		cf_id=input("Enter your codeforces id again\n")
@@ -16,7 +16,7 @@ while True:
 	else:
 		break
 
-contest_no=(input("Enter valid contest number :"))
+contest_no=(input("Enter valid contest number : "))
 link="https://codeforces.com/api/contest.ratingChanges?contestId="+contest_no
 js_object=requests.get(link)
 py_dict=json.loads(js_object.text)

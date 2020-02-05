@@ -7,7 +7,7 @@ import json
 c=0
 while True:
 	if c==0:
-		cf_id=input("Enter your codeforces id\n")
+		cf_id=input("Enter your codeforces id : ")
 		c+=1
 	else:
 		cf_id=input("Enter your codeforces id again\n")
