@@ -3,7 +3,7 @@
 ## About
 This project helps you to view yours as well as others Codeforces profile.
 
-##What's in there
+## What's in there
 - `profile.py` file lets you to view Codeforces Profile with basic information.
 - `rating_change.py` lets you to view your rating changes in particular contest.
 - `rating_history.py` lets you to save your contests performance in an Excel file.
