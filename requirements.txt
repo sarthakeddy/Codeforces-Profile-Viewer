@@ -1,0 +1,9 @@
+backports.functools-lru-cache==1.5
+beautifulsoup4==4.8.0
+bs4==0.0.1
+html5lib==0.999999999
+lxml==4.3.4
+pygobject==3.26.1
+pytz==2019.1
+requests==2.22.0
+xlsxwriter==1.0.4
