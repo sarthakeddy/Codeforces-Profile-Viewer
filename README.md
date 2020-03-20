@@ -3,7 +3,7 @@
 ## About
 This project helps you to view yours as well as others Codeforces profile.
 
-##What's in there
+## What's in there
 - `profile.py` file lets you to view Codeforces Profile with basic information.
 - `rating_change.py` lets you to view your rating changes in particular contest.
 - `rating_history.py` lets you to save your contests performance in an Excel file.
@@ -16,7 +16,7 @@ This project helps you to view yours as well as others Codeforces profile.
 
 ## Get in touch
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://www.linkedin.com/in/sarthakeddy/)
-[<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/sarthakeddy/)
+[<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/sarthak.eddy/)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="35" padding="10">](https://github.com/sarthakeddy)
 
 ## License
