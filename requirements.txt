@@ -5,5 +5,5 @@ html5lib==0.999999999
 lxml==4.6.5
 pygobject==3.26.1
 pytz==2019.1
-requests==2.22.0
+requests==2.31.0
 xlsxwriter==1.0.4
